@@ -14,7 +14,7 @@
 				<p>
 				<?php 
 					if(isset($_POST['pseudo'])){
-						echo 'Hello ' . $_POST['pseudo']; 
+						echo 'Hello ' . htmlspecialchars($_POST['pseudo']); 
 					}
 					else{
 						echo 'Hello world';
