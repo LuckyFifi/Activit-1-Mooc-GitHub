@@ -12,7 +12,7 @@
 			</header>	
 			<section>
 				<p>Hello world</p>
-				<form method="post" action="traitement.php">
+				<form method="post" action="view.php">
 					<p>
 						<label for="pseudo">Entrez votre pseudo : </label>
 						<input type="text" name="pseudo" id="pseudo" placeholder="Ex : world" required /><br />
